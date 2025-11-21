@@ -1,0 +1,265 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #201313 
+}
+
+header{
+    background-color: #201313
+    
+}
+
+header button{
+    margin-left: 200px;
+    color: white;
+    background-color: red; 
+    height: 50px;
+    width: 200px;
+    font-size: 20px;
+    border: none;
+    border-radius: 25px;
+}
+
+header a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    margin-right: 15px;
+}
+
+.logo {
+    width: 150px;
+    margin-right: 250px;
+    margin-left: 50px;
+}
+.firstsection{
+    color: white;
+    margin: 50px 200px;
+}
+.secondsection{
+    color: white;
+    margin: 50px 200px;
+}
+.firstbox{
+    color: white;
+    border-radius: 25px;
+    border: none;
+    background-color: red;
+    height: 50px;
+    width: 120px;
+}
+.secondbox{
+     color: white;
+    border-radius: 25px;
+    border: none;
+    background-color: red;
+    height: 50px;
+    width: 120px;
+}
+.thirdbox{
+     color: white;
+    border-radius: 25px;
+    border: none;
+    background-color: red;
+    height: 50px;
+    width: 120px;
+}
+.lastbox{
+    color: white;
+    border-radius: 25px;
+    border: none;
+    background-color: red;
+    height: 50px;
+    width: 120px;
+}
+.thirdsection{
+    color: white;
+    margin-left: 200px;
+}
+#secondbox{
+    color: white;
+    margin-left: 200px;
+}
+#thirdbox{
+    color: white;
+    margin-left: 200px;
+}
+#fourthbox{
+    color: white;
+    margin-left: 200px;
+    margin-bottom: 50px;
+}
+#section{
+   color: white;
+   margin-left: 200px;
+   margin-bottom: 50px;
+   border: 2px;
+   background-color: #201313;
+   width: 800px;
+   height: 200px;
+   font-size: 30px;
+   border-color: #201313;
+   border-style: solid; 
+}
+.emailbox{
+    height: 40px;
+    width: 600px;
+    border: 2px solid #201313;
+    font-size: 20px;
+    margin-left: 20px;
+}
+.subscribebox{
+    height: 40px;
+    width: 150px;
+    background-color: red;
+    border: none;
+    border-radius: 25px;
+    color: white;
+    font-size: 20px;
+}
+#second{
+    color: white;
+    margin-left: 200px;
+}
+#third{
+    color: white;
+    margin-left: 200px;
+}
+#fourth{
+    color: white;
+    margin-left: 200px;
+}
+#fifth{
+    color: white;
+    margin-left: 200px;
+}
+#sixth{
+    color: white;
+    margin-left: 200px;
+    margin-bottom: 50px;
+}
+#seventh{
+    color: white;
+    margin-left: 200px;
+}
+#eighth{
+    color: white;
+    margin-left: 200px;
+}
+#ninth{
+    color: white;
+    margin-left: 200px;
+}
+#tenth{
+    color: white;
+    margin-left: 200px;
+    margin-bottom: 50px;
+}
+#eleventh{
+    color: white;
+    margin-left: 200px;
+    margin-bottom: 50px;
+}
+#twelfth{
+    color: white;
+    margin-left: 200px;
+    margin-bottom: 50px;
+}
+#thirteenth{
+    color: white;
+    margin-left: 200px;
+    margin-bottom: 50px;
+}
+#fourteenth{
+    color: white;
+    margin-left: 200px;
+}
+#fifteenth{
+    color: white;
+    margin-left: 200px;
+    margin-bottom: 50px;
+}
+#sixteenth{
+    color: white;
+    margin-left: 200px;
+}
+#seventeenth{
+    color: white;
+    margin-left: 200px;
+}
+#eighteenth{
+    color: white;
+    margin-left: 200px;
+}
+#nineteenth{
+    color: white;
+    margin-left: 200px;
+}
+#twentieth{
+    color: white;
+    margin-left: 200px;
+}
+#twentyfirst{
+    color: white;
+    margin-left: 200px;
+}
+#twentysecond{
+    color: white;
+    margin-left: 200px;
+}
+#twentythird{
+    color: white;
+    margin-left: 200px;
+}
+#twentyfourth{
+    color: white;
+    margin-left: 200px;
+}
+#twentyfifth{
+    color: white;
+    margin-left: 200px;
+}
+#twentysixth{
+    color: white;
+    margin-left: 200px;
+}
+#twentyseventh{
+    color: white;
+    margin-left: 200px;
+}
+#twentyeighth{
+    color: white;
+    margin-left: 200px;
+}
+#twentyninth{
+    color: white;
+    margin-left: 200px;
+}
+#thirteith{
+    color: white;
+    margin-left: 200px;
+}
+#thirtyfirst{
+    color: white;
+    margin-left: 200px;
+}
+#thirtysecond{
+    color: white;
+    margin-left: 200px;
+}
+#thirtythird{
+    color: white;
+    margin-left: 200px;
+}
+#thirtyfourth{
+    color: white;
+    margin-left: 200px;
+}
+#thirtyfifth{
+    color: white;
+    margin-left: 200px;
+}

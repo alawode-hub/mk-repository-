@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 300vh;
+}
+
+.container{
+    background-color: blue;
+    height: 500px;
+    width: 500px;
+    position: relative;
+    top: 40px;
+    left: 50px;
+    z-index: 1;
+}
+
+.absolute{
+    position: absolute;
+    left: 500px;
+}
+h1{
+    position: relative;
+    z-index: 5;
+}
+
+button{
+    height: 50px;
+    width: 75px;
+    color: red;
+    position: fixed;
+    top: 0;
+}
