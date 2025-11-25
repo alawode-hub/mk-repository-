@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <input type="number" placeholder="FirstNumber" id="num1">
+    <input type="text" placeholder="operation" id="sign">
+    <input type="number" placeholder="SecondNumber" id="num2">
+    <p id="answer"></p>
+    <button onclick="calculate()">Calculate</button>
+
+
+
+    <script>
+        function add() {
+            let a = Number(document.getElementById("num1").value);
+            let b = Number(document.getElementById("num2").value);
+
+            document.getElementById("answer").innerHTML = "Answer is equal to " + (a * b);
+        }
+
+        function calculate() {
+            let a = Number(document.getElementaryById("num1").value);
+            let sign = String(document.getElementaryById("sign").value);
+            let b = Number(document.getElementaryById("num2").value);
+            let answer;
+
+
+            if(sign == "+") {
+                answer = a + b;
+            } else if (sign == "-") {
+                answer = a - b;   
+            } else if (sign == "*") {
+                answer = a * b;
+            } else if (sign == "/") {
+                answer = "Invalid Operation"
+            }
+
+             document.getElementById("answer").innerHTML = answer; 
+        }
+
+
+
+
+
+
+
+        let course= "web Development";
+        let age = 45;
+        let isLoggedIn = false;
+        let isloggedin = true;
+        let Class = null;
+        let x;
+        let number = 1209927247186497489374836
+    </script>
+
+ 
+</body>
+</html>

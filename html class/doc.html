@@ -3,50 +3,81 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Composer Introduction</title>
 </head>
 <body>
-    <header><header>
-     <Nav>
-        <a href="">Home</a>
-        <a href="">Get started</a>
-        <a href="">Download</a>
-        <a href="">Document</a>
-        <a href="">Browse Package</a>
-     <nav>
-     <ol>
-        <li>dependency management</li>
-        <li>system requrement</li>
-        <li>installation </li>
-      <nav>
-      <ol>
-        <li>Downloading the composer Executable</li>
-      <ul>
-        <li>Locally</li>
-        <li>Globally</li>
 
-    <nav>
-      <ol>
-        <li>Installation-Windows</li>
+    <header>
+        <h1>Composer Introduction</h1>
+        <nav>
+            <a href="#">Home</a> |
+            <a href="#">Get Started</a> |
+            <a href="#">Download</a> |
+            <a href="#">Documentation</a> |
+            <a href="#">Browse Packages</a>
+        </nav>
+    </header>
 
+    <section>
+        <h2>Topics</h2>
+        <ol>
+            <li>Dependency Management</li>
+            <li>System Requirements</li>
+            <li>Installation
+                <ol>
+                    <li>Downloading the Composer Executable
+                        <ul>
+                            <li>Locally</li>
+                            <li>Globally</li>
+                        </ul>
+                    </li>
+                    <li>Installation - Windows</li>
+                    <li>Installation - Docker</li>
+                </ol>
+            </li>
+            <li>Using Composer</li>
+        </ol>
+    </section>
 
-     </ol> 
-      
-       </nav>  
+    <section>
+        <h2>Dependency Management</h2>
+        <p>
+            Composer is a tool for PHP developers to manage dependencies. It installs libraries your project needs in a folder called <code>vendor</code>. 
+            Composer works on a per-project basis and can also be installed globally if needed.
+        </p>
+    </section>
 
-        
-      
+    <section>
+        <h2>System Requirements</h2>
+        <ul>
+            <li>PHP 7.2.5 or higher</li>
+            <li>Command line tools like unzip, tar, gzip</li>
+            <li>Version control tools like Git, Mercurial, Subversion if needed</li>
+            <li>Works on Windows, Linux, or macOS</li>
+        </ul>
+    </section>
 
-      
+    <section>
+        <h2>Installation</h2>
 
+        <h3>Downloading the Composer Executable</h3>
+        <ul>
+            <li><strong>Locally:</strong> Install composer.phar in your project folder</li>
+            <li><strong>Globally:</strong> Move composer.phar to a folder in your system PATH</li>
+        </ul>
 
+        <h3>Installation - Windows</h3>
+        <p>Use the Composer-Setup.exe installer or manually download composer.phar and create a .bat file to run it from the command line.</p>
 
-
-
-
-     </ol>
-
-
-     </nav>
+        <h3>Installation - Docker</h3>
+        <p>You can use Composer via Docker by pulling the composer/composer image and running install commands inside it.</p>
+    </section>
+    
+    <section>
+        <h2>Using Composer</h2>
+        <p>
+            Once Composer is installed, you can declare which libraries your project needs, then run Composer to install or update them.
+        </p>
+    </section>
 </body>
 </html>
