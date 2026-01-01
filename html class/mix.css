@@ -1,0 +1,416 @@
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    background: #ffffff;
+    color: #1d1d1d;
+}
+
+header {
+    padding: 1rem 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header img {
+  width: 120px;
+  height: auto;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+}
+
+nav a {
+    margin-left: 2rem;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+nav a:hover {
+    color: red;
+}
+
+.nav-btn {
+    background: #e60000;
+    color: #fff;
+    padding: 0.6rem 1.2rem;
+    border-radius: 20px;
+    margin-left: 1.5rem;
+    font-weight: 600;
+}
+
+.nav-btn:hover {
+    background: #cc0000;
+    color: #fff;
+}
+
+
+.cta-btn {
+    padding: 0.9rem 2rem;
+    background: #e60000;
+    color: #fff;
+    border-radius: 30px;
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: 500;
+    display: inline-block;
+    text-align: center;
+}
+
+.audio {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;   
+    align-items: center;       
+    text-align: center;
+    min-height: 20vh;         
+    padding: 0 2rem;         
+    margin: 0 auto;
+}
+
+.audio h1 {
+    font-size: 3rem;
+    font-weight: 100;
+    line-height: 1.3;
+    margin-bottom: 1rem;
+}
+
+.audio p {
+    font-size: 1.1rem;
+    font-weight: 200;
+    margin-bottom: 2rem;
+    color: #555;
+}
+
+.cta-btn {
+    padding: 1rem 2rem;
+    background: #e60000;
+    color: #fff;
+    border-radius: 30px;
+    font-size: 1.1rem;
+    font-weight: 500;
+    text-decoration: none;
+    display: inline-block;
+}
+
+
+  
+
+.section-broadcast {
+  padding: 60px 20px;
+  font-family: Arial, sans-serif;
+}
+
+.section-broadcast .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1000px;
+  margin: 0 auto;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.text-side {
+  flex: 1 1 450px;
+}
+
+.text-side h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.text-side p {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.image-side {
+  flex: 1 1 450px;
+  text-align: center;
+}
+
+.image-side img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.section-engage {
+  padding: 60px 20px;
+  font-family: Arial, sans-serif;
+  background-color: #fff;
+}
+
+.section-engage .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1000px;
+  margin: 0 auto;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.engage-image {
+  flex: 1 1 450px;
+  text-align: center;
+}
+
+.engage-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.engage-text {
+  flex: 1 1 450px;
+}
+
+.engage-text h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+  font-weight: 200;
+}
+
+.engage-text p {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.section-channel {
+  padding: 60px 20px;
+  font-family: Arial, sans-serif;
+}
+
+.section-channel .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1000px;
+  margin: 0 auto;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.text-side {
+  flex: 1 1 250px;
+}
+
+.text-side h1 {
+  margin-bottom: 40px;       
+  font-size: 2.3rem;
+  margin-bottom: 20px;
+
+}
+
+.text-side p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.image-side {
+  flex: 1 1 450px;
+  text-align: center;
+}
+
+.image-side img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}  
+
+.section-showcase {
+  padding: 60px 20px;
+  font-family: Arial, sans-serif;
+  background-color: #fff;
+}
+
+.section-showcase .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1000px;
+  margin: 0 auto;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.showcase-image {
+  flex: 1 1 450px;
+  text-align: center;
+}
+
+.showcase-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.showcase-text {
+  flex: 1 1 450px;
+}
+
+.showcase-text h1 {
+  font-size: 65px;
+  margin-bottom: 20px;
+  line-height: 1.2;
+}
+
+.showcase-text p {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.section-custom {
+  padding: 60px 20px;
+  font-family: Arial, sans-serif;
+}
+
+.section-custom .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1000px;
+  margin: 0 auto;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.text-side {
+  flex: 1 1 250px;
+}
+
+.text-side h2 {
+  font-size: 32px;
+  margin-bottom: 40px;
+}
+
+.text-side p {
+    font-size: 16px;
+    line-height: 1.6;
+} 
+
+.image-side {
+  flex: 1 1 450px;
+  text-align: center;
+}
+
+.image-side img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}     
+
+.more-title {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 200;
+    margin-bottom: 10px;
+    margin-top: 60px;
+}
+
+
+.features-section {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 60px 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+}
+
+.feature-box {
+    text-align: center;
+    padding: 20px;
+}
+
+.feature-box img {
+    width: 70px;   
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.feature-box h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+.feature-box p {
+    font-size: 0.95rem;
+    line-height: 1.6;
+    color: #444;
+}
+
+
+.audio {
+    padding: 2.7rem 3rem;
+    text-align: center;
+}
+
+.audio h1 {
+    font-size: 1.9rem;
+    line-height: 1.2;
+    margin-bottom: 1rem;
+    font-weight: 80;
+    text-align: center;
+}
+
+
+.cta-btn {
+    padding: 0.9rem 1rem;
+    color: #fff;
+    border-radius: 30px;
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: 500;
+    display: inline-block;
+}
+
+
+.footer {
+    padding: 3rem 2rem;
+    text-align: center;
+    margin-top: 4rem;
+}
+
+.footer-logo {
+    width: 130px;
+    margin-bottom: 1rem;
+}
+
+.footer-socials a img {
+    width: 28px;
+    margin: 0 8px;
+    cursor: pointer;
+}
+
+.footer-links {
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.footer-links a {
+    margin: 0 12px;
+    color: #333;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.footer-links a:hover {
+    color: #e60000;
+}
+
+.footer-copy {
+    font-size: 0.9rem;
+    color: #666;
+}

@@ -191,10 +191,11 @@ ul{
 .program {
     font-size: 40px;
     margin-bottom: 10px;
+    color: white;
 }
 
 .lastborn {
-    width: 200px;
+    width: auto;
     height: 70px;
     font-size: 20px;
 }
@@ -202,7 +203,6 @@ ul{
 .lastborn:hover {
     background: transparent;
     border: 2px solid white;
-    color: white;
 }
 
 .media {
