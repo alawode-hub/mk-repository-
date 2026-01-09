@@ -253,7 +253,7 @@ nav a {
 .invest {
   background: #ffffff;
   padding: 120px 20px;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .invest-header {
@@ -371,7 +371,7 @@ nav a {
 }
 
 
-/* NEW: styles for YouTube video */
+
 .saver-video {
   max-width: 800px; 
   margin: 0 auto;
@@ -381,15 +381,15 @@ nav a {
 
 .saver-video iframe {
   width: 100%;
-  height: 450px;  /* 16:9 aspect ratio */
+  height: 450px;  
   border: none;
   display: block;
 }
 
-/* OPTIONAL: make it fully responsive */
+
 @media (max-width: 768px) {
   .saver-video iframe {
-    height: 250px; /* smaller height on mobile */
+    height: 250px; 
   }
 
   .saver-container h2 {
@@ -533,7 +533,7 @@ footer {
 }
 
 .footer-col h4 {
-  font-weight: 600;
+  font-weight: 100;
   margin-bottom: 10px;
 }
 
