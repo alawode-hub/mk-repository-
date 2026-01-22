@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" id="in1" disabled>
+    <br><br>
+    <button onclick="clickMe(0)">0</button>
+    <button onclick="clickMe(1)">1</button>
+    <button onclick="clickMe(2)">2</button>
+    <button onclick="clickMe(3)">3</button>
+    <button onclick="clickMe(4)">4</button>
+    <button onclick="clickMe(5)">5</button>
+
+    <button onclick="clickMe('-')">-</button> 
+    <button onclick="clickMe('+')">+</button>
+    <button onclick="clickMe('*')">x</button>
+    <button onclick="solve()">=</button>
+    <button onclick="clearMe()">Clear</button>
+
+
+    <script>
+        function clickMe(num){
+            document.getElementById("in1").value += num;
+        }
+
+        function solve(){
+            console.log(in1.value);
+            
+            let answer = eval(in1.value);
+            console.log(answer);
+            inp1.value = answer;
+        }
+        function clearMe(){
+            document.getElementById("in1").value = " ";
+        }
+    </script>
+</body>
+</html>
